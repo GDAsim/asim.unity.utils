@@ -1,26 +1,25 @@
-﻿using TMPro;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.UI;
 using asim.unity.utils;
 
 public class TimerExample : MonoBehaviour
 {
     [Header("Repeater")]
-    [SerializeField] TMP_Text durationRunning_Text;
-    [SerializeField] TMP_Text durationTime_Text;
-    [SerializeField] TMP_Text durationRuns_Text;
+    [SerializeField] Text durationRunning_Text;
+    [SerializeField] Text durationTime_Text;
+    [SerializeField] Text durationRuns_Text;
     [SerializeField] Button reset_btn;
 
     [Header("Repeater")]
-    [SerializeField] TMP_Text repeaterRunning_Text;
-    [SerializeField] TMP_Text repeaterTime_Text;
-    [SerializeField] TMP_Text repeaterRuns_Text;
+    [SerializeField] Text repeaterRunning_Text;
+    [SerializeField] Text repeaterTime_Text;
+    [SerializeField] Text repeaterRuns_Text;
     [SerializeField] Button startstop_btn;
 
     [Header("Interval")]
-    [SerializeField] TMP_Text intervalRunning_Text;
-    [SerializeField] TMP_Text intervalTime_Text;
-    [SerializeField] TMP_Text intervalRuns_Text;
+    [SerializeField] Text intervalRunning_Text;
+    [SerializeField] Text intervalTime_Text;
+    [SerializeField] Text intervalRuns_Text;
     [SerializeField] Button shoot_btn;
 
     // Create new
